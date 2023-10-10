@@ -1,16 +1,16 @@
 call plug#begin('~/.vim/plugged')
 	
-"debugger para php 
+"debugger-php 
 Plug 'puremourning/vimspector'
 
 "airline-rodapé
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-"file browser 
+"file-browser 
 Plug 'preservim/nerdtree'
 
-"instant markdown
+"instant-markdown
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 
 "tagbar-navegador-de-módulos
